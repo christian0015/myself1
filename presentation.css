@@ -48,7 +48,7 @@ header {
     overflow: hidden;
     background: rgba(255, 255, 255, 0);
     /* Fond semi-transparent pour atténuer le flou */
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
     /* Applique un flou au header */
 }
 
@@ -61,7 +61,7 @@ header::before {
     bottom: 0;
     background: rgba(255, 255, 255, 0.411);
     /* Fond semi-transparent pour atténuer le flou */
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(30px);
     /* Applique un flou au pseudo-élément */
     z-index: -1;
     /* Place le pseudo-élément en arrière-plan pour que les éléments au-dessus restent lisibles */
